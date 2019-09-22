@@ -1,0 +1,142 @@
+body{
+  background-color: #225588;
+  
+}
+
+.ru-button{
+  background-color: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-image: url(http://probible.ru/images/ru.png);
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0,0,0, 1), 0 0 5px rgba(0,0,0, 1);
+  
+}
+.eng-button{
+  background-color: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  background-image: url(http://probible.ru/images/eng.png);
+  color: #fff;
+  text-shadow: 0 0 4px rgba(0,0,0, 1), 0 0 5px rgba(0,0,0, 1);
+}
+.inp-div{
+ 
+  height: 100%;
+  width: auto;
+  align-items: center;
+}
+.box{
+  max-width: 1200px;
+  margin: auto;
+  
+  margin-top: 1px;
+  transition: all 0.2s ease 0s;
+}
+
+.body{
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background-color: #225588;
+  text-align: center;
+ }
+.name{
+  font-family: verdana;
+  color: #ffffff;
+  font-size: 40px;
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: 40px;
+  border-radius: 2px;
+  top: 0px;
+}
+.header{
+  position: relative;
+  
+  }
+.conteiner{
+  display: block;
+  padding: 10px;
+  padding-left: 40px;
+  background-color: #ffffff;
+  width: 80%;
+ 
+  height: auto;
+  
+  color: #000055;
+  text-align: left;
+  transition: all 0.2s;
+  margin: 0 auto;
+  min-width: 300px;
+  }
+hr{
+  border: none;
+  height: 1px;
+  background-color: rgba(255,255,255, 0.1)
+}
+
+ 
+.conteiner:hover{
+  background-color: #ccc;
+ }
+
+
+.header_input{
+  border: 1px solid #cccccc; 
+  border-radius: 5px; 
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px;  
+   -khtml-border-radius: 5px;  
+  padding: 2px;
+  bottom: 0px;
+  border-left: 2px solid #ff3300;
+  border-right:2px solid #ff3300;
+  border-top: 1px solid #222222;
+  margin: 2px;
+  background-color: #ffffff;
+  height: auto;
+  
+}
+
+.header_button-search{
+  border: 1px solid #cccccc; 
+  border-radius: 5px; 
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px;  
+   -khtml-border-radius: 5px;  
+  color: #ffffff;
+  padding: 2px;
+  bottom: 0px;
+  margin: 2px;
+  width: 80px;
+  background-color: #ad4815;
+  height: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.header_button-random{
+  border: 1px solid #cccccc; 
+  border-radius: 5px; 
+   -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px;  
+   -khtml-border-radius: 5px;  
+  color: #ffffff;
+  padding: 2px;
+  bottom: 0px;
+  width: auto;
+  background-color: #ad4815;
+  height: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.unvis{
+  opacity: 0;
+  bottom: -200px;  
+}
